@@ -88,7 +88,7 @@ fun Start() {
             LazyColumn(Modifier.background(color = Purple80), listState) {
 
                 item {
-                    Text(text = "В конец списка ↓↓\n_____________________________",
+                    Text(text = "В конец списка ↓↓\n______________________",
                         fontSize = 22.sp,
                         modifier = Modifier
                             .padding(12.dp)
@@ -120,7 +120,7 @@ fun Start() {
                 }
 
                 item {
-                    Text(text = "_____________________________\nВ начало списка ↑↑",
+                    Text(text = "______________________\nВ начало списка ↑↑",
                         fontSize = 22.sp,
                         modifier = Modifier
                             .padding(12.dp)
